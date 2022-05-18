@@ -15,9 +15,7 @@ import com.rrat.hackernews.view.helpers.SwipeDeletePost
 import com.rrat.hackernews.viewmodel.HackerNewsViewModel
 import com.rrat.hackernews.viewmodel.PostViewModel
 import com.rrat.hackernews.viewmodel.PostViewModelFactory
-import java.time.Instant
-import java.time.ZoneId
-import java.time.format.DateTimeFormatter
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -112,6 +110,5 @@ class MainActivity : AppCompatActivity() {
 
     companion object {
         private const val TAG = "MainActivity"
-
     }
 }

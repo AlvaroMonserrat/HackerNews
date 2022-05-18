@@ -2,22 +2,16 @@ package com.rrat.hackernews.view.adapters
 
 import android.app.Activity
 import android.content.Intent
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.rrat.hackernews.databinding.ItemHitLayoutBinding
 import com.rrat.hackernews.model.data.entities.Post
-import com.rrat.hackernews.model.network.data.HackerNews
 import com.rrat.hackernews.utils.Constants
 import com.rrat.hackernews.utils.DateUtils
 import com.rrat.hackernews.view.activities.ArticleActivity
 import com.rrat.hackernews.view.activities.MainActivity
-import java.time.Duration
-import java.time.Instant
-import java.time.LocalDateTime
-import java.util.concurrent.TimeUnit
+
 
 class HackerNewsAdapter(private val activity: Activity) : RecyclerView.Adapter<HackerNewsAdapter.ViewHolder>() {
 

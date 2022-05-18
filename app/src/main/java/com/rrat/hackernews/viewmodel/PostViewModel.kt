@@ -21,6 +21,7 @@ class PostViewModel(private val repository: HackerNewsRepository): ViewModel() {
         repository.insertOrUpdatePost(post)
     }
     */
+
     val allPosts: LiveData<List<Post>> = repository.allPost.asLiveData()
 }
 

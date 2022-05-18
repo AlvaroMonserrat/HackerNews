@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">HackerNews</string>
     <string name="get_data">Get Data</string>
+    <string name="back">Back</string>
     <string name="hyphen">-</string>
     <string name="delete">DELETE</string>
 </resources>

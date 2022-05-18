@@ -1,6 +1,5 @@
 package com.rrat.hackernews.model.database
 
-import android.content.Intent
 import androidx.annotation.WorkerThread
 import com.rrat.hackernews.model.data.entities.Post
 import kotlinx.coroutines.flow.Flow

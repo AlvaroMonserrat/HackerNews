@@ -1,6 +1,5 @@
 package com.rrat.hackernews.view.helpers
 
-import android.content.Context
 import android.graphics.Canvas
 import android.util.TypedValue
 import androidx.core.content.ContextCompat
@@ -9,7 +8,6 @@ import androidx.recyclerview.widget.RecyclerView
 import com.rrat.hackernews.R
 import com.rrat.hackernews.view.adapters.HackerNewsAdapter
 import it.xabaras.android.recyclerview.swipedecorator.RecyclerViewSwipeDecorator
-import java.nio.file.Files.delete
 
 
 class SwipeDeletePost( var adapter: HackerNewsAdapter) : ItemTouchHelper.SimpleCallback(0, ItemTouchHelper.LEFT)
