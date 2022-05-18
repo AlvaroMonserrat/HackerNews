@@ -1,9 +1,9 @@
-# HackerNews
-Post news App
+# HackerNews #
+
+APP DEMO
 
 Required:
 - Android Studio 2021.2.1 or newer version.
-
 
 
 ![b](https://user-images.githubusercontent.com/23504222/168951590-fed357e5-903b-4ae9-bbe6-cc5179790305.jpeg)
