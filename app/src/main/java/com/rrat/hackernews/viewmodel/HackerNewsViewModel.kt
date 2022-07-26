@@ -38,6 +38,6 @@ class HackerNewsViewModel : ViewModel(){
 
     override fun onCleared() {
         super.onCleared()
-        compositeDisposable.clear()
+        compositeDisposable.clear() /**/
     }
 }
